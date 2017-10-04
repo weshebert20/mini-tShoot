@@ -8,6 +8,6 @@ function addProjects() {
 		projectImage.setAttribute("src", "project"+1+".png");
 		projectLink.appendChild(projectImage);
 		project.appendChild(projectLink);
-		projectDiv.appendChild(project);
+		projectDiv.prepend(project);
 	}
 }
